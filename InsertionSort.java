@@ -1,8 +1,10 @@
 import java.util.*;
 
-class test{
 
-public static void insertionSortString(String srr[],int len)
+class Test{
+
+	public static void insertionSortString(String srr[],int len)
+
 	{
 		String temp;
 		int j;
@@ -25,6 +27,11 @@ public static void insertionSortString(String srr[],int len)
 	}
 }
 
+
+
+
+
+
 class InsertionSort{
 	public static void main(String...args)
 	{
@@ -37,7 +44,15 @@ class InsertionSort{
 	{
 		 str[i]=sc.next();
 	}
-	test u=new test();
+
+
+
+	Test u=new Test();
+
+	
+
+
+
 	System.out.println("after sorting ");
 	u.insertionSortString(str,data-1);
 	

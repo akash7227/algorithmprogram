@@ -3,14 +3,11 @@ import java.util.*;
 class BinarySearch{
 	public static void main(String...args) throws IOException
 	{
-	//FileInputStream Fr=new FileINputStream("input.txt");
-	FileOutputStream fo=new FileOutputStream("input.txt");
-	Scanner sc=new Scanner(System.in);
+		FileOutputStream fo=new FileOutputStream("input.txt");
+		Scanner sc=new Scanner(System.in);
 
-
-
-	System.out.println("enter data into file");
-	String str=sc.nextLine();
+		System.out.println("enter data into file");
+		String str=sc.nextLine();
 
 	byte b[]=str.getBytes();
 
@@ -29,7 +26,15 @@ class BinarySearch{
 		values.add(data);	
 	}
 	
+		String[] name=new String[values.size()];
 
+
+
+	String[] name=new String[values.size()];
+	System.out.print(values.size());	
+	//Arrays.sort(data);
+	name=values.toArray(name);
+	
 
 
 	String[] name=new String[values.size()];

@@ -1,4 +1,4 @@
-package A4;
+
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -197,7 +197,15 @@ class UtilityClass{
 					u.insertionSortInt(arr,len-1);
 					long endTime = (System.nanoTime());
 					long  totalTime=endTime-startTime;
+
+
+					System.out.println("Time duration "+totalTime);
+
 					System.out.println(totalTime);
+
+
+					
+
 					arrdata[mm]=(int) (long)totalTime;				
 					break;  
     				case 2:
@@ -206,7 +214,15 @@ class UtilityClass{
 					long endTime2= (System.nanoTime());
 					long  totalTime2=endTime2-startTime2;
 					arrdata[mm]=(int) (long)totalTime2;
+
+
+					System.out.println("Time duration "+totalTime2);
+
 					System.out.println(totalTime2);
+
+
+					
+
 					
 					break;  
     				case 3:
@@ -215,7 +231,15 @@ class UtilityClass{
 					long endTime3 = (System.nanoTime());
 					long  totalTime3=endTime3-startTime3;
 					arrdata[mm]=(int) (long)totalTime3;
+
+
+					System.out.println("Time duration "+totalTime3);
+
 					System.out.println(totalTime3);
+
+
+					
+
 					break;   
 				case 4: 
 					long startTime4 = (System.nanoTime());
@@ -223,7 +247,15 @@ class UtilityClass{
 					long endTime4 = (System.nanoTime());
 					long  totalTime4=endTime4-startTime4;
 					arrdata[mm]=(int) (long)totalTime4;
+
+
+					System.out.println("Time duration "+totalTime4);
+
 					System.out.println(totalTime4);
+
+
+				
+
 					break;
     			 	case 5: 
 					System.out.println("enter data you want to search");
@@ -233,7 +265,14 @@ class UtilityClass{
 					long endTime5 = (System.nanoTime());
 					long  totalTime5=endTime5-startTime5;
 					arrdata[mm]=(int) (long)totalTime5;
+
+
+					System.out.println("Time duration "+totalTime5);
+
 					System.out.println(totalTime5);
+
+
+
 					break;
     				case 6: 
 					System.out.println("enter String you want to search");
@@ -243,7 +282,15 @@ class UtilityClass{
 					long endTime6 = (System.nanoTime());
 					long  totalTime6=endTime6-startTime6;
 					arrdata[mm]=(int) (long)totalTime6;
+
+
+					System.out.println("Time duration "+totalTime6);
+
 					System.out.println(totalTime6);
+
+
+					
+
 					break;
     			 	
     				 case 7: 
