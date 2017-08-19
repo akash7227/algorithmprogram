@@ -1,3 +1,4 @@
+
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -197,9 +198,13 @@ class UtilityClass{
 					long endTime = (System.nanoTime());
 					long  totalTime=endTime-startTime;
 
+
 					System.out.println("Time duration "+totalTime);
 
 					System.out.println(totalTime);
+
+
+					
 
 					arrdata[mm]=(int) (long)totalTime;				
 					break;  
@@ -210,9 +215,13 @@ class UtilityClass{
 					long  totalTime2=endTime2-startTime2;
 					arrdata[mm]=(int) (long)totalTime2;
 
+
 					System.out.println("Time duration "+totalTime2);
 
 					System.out.println(totalTime2);
+
+
+					
 
 					
 					break;  
@@ -223,9 +232,13 @@ class UtilityClass{
 					long  totalTime3=endTime3-startTime3;
 					arrdata[mm]=(int) (long)totalTime3;
 
+
 					System.out.println("Time duration "+totalTime3);
 
 					System.out.println(totalTime3);
+
+
+					
 
 					break;   
 				case 4: 
@@ -235,9 +248,13 @@ class UtilityClass{
 					long  totalTime4=endTime4-startTime4;
 					arrdata[mm]=(int) (long)totalTime4;
 
+
 					System.out.println("Time duration "+totalTime4);
 
 					System.out.println(totalTime4);
+
+
+				
 
 					break;
     			 	case 5: 
@@ -249,9 +266,12 @@ class UtilityClass{
 					long  totalTime5=endTime5-startTime5;
 					arrdata[mm]=(int) (long)totalTime5;
 
+
 					System.out.println("Time duration "+totalTime5);
 
 					System.out.println(totalTime5);
+
+
 
 					break;
     				case 6: 
@@ -263,9 +283,13 @@ class UtilityClass{
 					long  totalTime6=endTime6-startTime6;
 					arrdata[mm]=(int) (long)totalTime6;
 
+
 					System.out.println("Time duration "+totalTime6);
 
 					System.out.println(totalTime6);
+
+
+					
 
 					break;
     			 	

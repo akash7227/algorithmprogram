@@ -5,7 +5,6 @@ class anagram{
 	{
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter first String");
-<<<<<<< HEAD
 	String str1=sc.nextLine();
 	String st1=str1.toLowerCase();
 	
@@ -17,17 +16,7 @@ class anagram{
 	Arrays.sort(str1_sort);
 
 	char[] str2_sort=st2.toCharArray();
-=======
-	String str1=sc.next();
-	
-	System.out.println("Enter second String");
-	String str2=sc.next();
-	
-	char[] str1_sort=str1.toCharArray();
-	Arrays.sort(str1_sort);
 
-	char[] str2_sort=str2.toCharArray();
->>>>>>> 643a5950d7d517fd881464541f65ac2ff0de79c7
 	Arrays.sort(str2_sort);
 
 	String s1=String.valueOf(str1_sort);
