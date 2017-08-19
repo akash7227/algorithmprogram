@@ -7,6 +7,8 @@ class BinarySearch{
 	FileOutputStream fo=new FileOutputStream("input.txt");
 	Scanner sc=new Scanner(System.in);
 
+
+
 	System.out.println("enter data into file");
 	String str=sc.nextLine();
 
@@ -27,6 +29,9 @@ class BinarySearch{
 		values.add(data);	
 	}
 	
+
+
+
 	String[] name=new String[values.size()];
 	System.out.print(values.size());	
 	//Arrays.sort(data);
